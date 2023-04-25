@@ -1,10 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&family=Lato:ital,wght@0,400;0,700;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+font-family: 'Lato', sans-serif;
+}
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ec5242;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.ham-div { 
+  margin: 10px 10px 20px 20px;
+}
+
+.overlay {
+  height: 100vh;
+  background-color: #d3d3d3;
+}
+
+.menu-links {
+  display: none;
+  flex-direction: column;
+  gap: 1.5rem;
+  position: absolute;
+  top: 4rem;
+  left: 2rem;
+  font-size: 1.5rem;
+}
+
+.closeIcon {
+  float: right;
+  margin: 2rem;
+}
 .abt-header {
   padding-bottom: 20px;
   background-color: #d3d3d3;
+  background-image: url(../assets/mobile_intro_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 .abt-heading {
+  
   color: #ec5242;
   font-size: 1rem;
   font-weight: 700;

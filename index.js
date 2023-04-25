@@ -18,28 +18,28 @@ const speakers = [
       image : 'assets/speaker03.png',
       title : 'Resource Person',
       person : 'Lila Tretikov',
-      post : 'Plenary Speaker',
+      post : 'Keynote Speaker',
       add : 'Former Dean of the Faculty of Agricultural Technology, Al-Balqa Applied University, Jordan.'
   },
   {
       image : 'assets/speaker04.png',
       title : 'Resource Person',
-      person : 'Prof.Kilman Chon',
-      post : 'Plenary Speaker',
+      person : 'Prof. Kilman Chon',
+      post : 'Keynote Speaker',
       add : 'Dean of Faculty of Agro Based Industry Universiti Malaysia Kelantan Malaysia'
   },
   {
       image : 'assets/speaker05.png',
       title : 'Resource Person',
       person : 'Julia Leda',
-      post : 'Conference Chair & Keynote Speaker',
+      post : 'Plenary Speaker',
       add : 'President of Young Pirates of Europe'
   },
   {
       image : 'assets/speaker06.png',
       title : 'Resource Person',
       person : 'Ryan Dyrud',
-      post : 'Conference Chair & Keynote Speaker',
+      post : 'Plenary Speaker',
       add : 'Berkman Professor of Enterpreneurial Legal Studies'
   },
 ]
@@ -47,7 +47,7 @@ const speakers = [
 const resource = document.querySelector('#speaker-card');
 
 for (let i = 0; i < speakers.length; i += 1) {
-  resource.innerHTML += `
+resource.innerHTML += `
       <div class="speaker-cont ">
         <div class="speaker-img">
             <img src="${speakers[i].image}" alt="speaker1-img">
@@ -65,7 +65,7 @@ for (let i = 0; i < speakers.length; i += 1) {
   `;
 }
 
-                                    // MOBILE MENU-LIST (HAMBURGER)
+                           // MOBILE MENU-LIST (HAMBURGER)
 
 
 const menuIcon = document.querySelector('.ham-div');
@@ -83,9 +83,21 @@ const displayMenu = () => {
   body.style.overflow = 'hidden';
 }
 
+const closeMenu = () => {
+  menuIcon.style.display = 'block';
+  overlay.classList.add('hidden');
+  menu.style.display = 'none';
+  closeIcon.style.display = 'none'
+  body.style.overflow = 'scroll';
+}
+
 menuIcon.addEventListener('click', () => {
   displayMenu();
 } )
+
+closeIcon.addEventListener('click', () => {
+  closeMenu();
+})
 
 
 

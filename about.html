@@ -25,20 +25,32 @@
         <i class="uil uil-bars hamburger"></i>
       </div>
 
-      <section class="nav_menu hidden">
-        <div><img src="assets/icons_logos/Agrico_logo.jpg" alt="Agrico_logo"></div>
-        <div><a href="">Home</a></div>
-        <div><a href="">Conference</a></div>
-        <div><a href="">Paper Submission</a></div>
-        <div><a href="">Special Events</a></div>
-        <div><a href="">Registration</a></div>
-        <div><a href="">History</a></div>
-        <div><a href="">About Us</a></div>
-        <div><a href="">Contact Us</a></div>
+      <section class="nav_menu">
+        <div class="logo hidden">
+          <a href="#"><img src="assets/icons_logos/Agrico_logo.jpg" alt="Agrico_logo"></a>
+        </div>
+        <div class="menu-right">
+          <div class="menu-links">
+            <a href="index.html">Home</a>
+            <a href="">Paper Submission</a>
+            <a href="">Special Events</a>
+            <a href="">Registration</a>
+            <a href="">History</a>
+            <a href="about.html">About Us</a>
+            <a href="">Contact Us</a>
+          </div>
+          <img src="/assets/close_Icon.svg" alt="" class="closeIcon hidden" />
+          <div class="main-link hidden">
+            <a href="">Conference</a>
+          </div>
+        </div>
+        
       </section>
     </nav>
+    <div class="overlay hidden"></div>
 
     <section class="abt-heading">
+      <p>"Hello everyone! Here is another edition...</p>
       <h1>
         THE 10TH INTERNATIONAL CONFERENCE ON AGRICULTURE 2023
       </h1>
@@ -54,6 +66,9 @@
       </div>
     </section>
   </header>
+
+  <section id="speaker-card" class="hidden">
+  </section>
 
   <section class="about">
     <!-- <div conference>
@@ -154,5 +169,9 @@
     </div>
     
   </footer>
+
+  <script src="index.js">
+  </script>
+
 </body>
 </html>
