@@ -1,0 +1,118 @@
+
+
+.abt-header {
+  padding-bottom: 20px;
+  background-color: #d3d3d3;
+}
+.abt-heading {
+  color: #ec5242;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 44px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.abt-conf {
+  color: #272a31;
+  line-height: 20px;
+  font-size: 12px;
+  margin: 20px;
+  background-color: #d3d3d3;
+  box-shadow: 2px 2px 6px #b4aeae;
+  border-radius: 4px;
+  padding: 18px 12px;
+  opacity: 1;
+  align-self: center;
+}
+
+.about {
+  background-color: #272a31;
+  padding: 1px 0px;
+}
+
+.contact {
+  margin-bottom: 1px;
+  padding: 8px 12px;
+  background-color: #d3d3d3;
+  mix-blend-mode: screen;
+  backdrop-filter: blur(2px);
+  display: grid;
+  gap: 10px;
+}
+
+.contact-card {
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: #ec5242;
+  box-shadow: 2px 2px 6px #b4aeae;
+  border-radius: 4px;
+  line-height: 32px;
+  padding: 8px 12px;
+  margin: 10px 5px;
+}
+
+.title {
+  font-size: 22px;
+}
+.name {
+  color: #282a32;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.card-contact {
+  color: #d3d3d3;
+  font-size: 12px;
+}
+
+.summit {
+  display: flex;
+  background-color: #d3d3d3;
+  gap: 10px;
+  padding: 18px 12px;
+
+}
+
+.summit-card {
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 2px 2px 8px #5f5e5e;
+}
+
+.card-img img {
+  width: 100%;
+  height: 30vh;
+}
+
+.summit-card a {
+  font-size: 17px;
+  text-decoration: none;
+  color: #272a31;
+}
+
+footer {
+  background-color: #ffffff;
+  padding: 8px 12px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  color: #000000;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+footer div {
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 12px;
+}
+
+.f-logo img {
+  width: 100%;
+  background-color: #272a31
+}
