@@ -558,19 +558,6 @@ footer {
   line-height: 28px;
 }
 
-/* .des-partners {
-  display: flex;
-  background-color: #414246;
-  padding: 20px;
-  font-size: 40px;  
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-} */
-
-
-
 .partners-image {
   display: flex;
   justify-content: space-around;
