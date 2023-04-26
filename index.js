@@ -68,7 +68,7 @@ resource.innerHTML += `
                            // MOBILE MENU-LIST (HAMBURGER)
 
 
-const menuIcon = document.querySelector('.ham-div');
+const menuIcon = document.querySelector('.hamburger');
 const closeIcon = document.querySelector('.closeIcon');
 const overlay = document.querySelector('.overlay');
 const menu = document.querySelector('.menu-links');
