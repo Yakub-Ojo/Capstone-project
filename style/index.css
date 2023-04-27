@@ -26,34 +26,13 @@ a {
   display: none;
 }
 
-.overlay {
-  height: 100vh;
-  background-color: #d3d3d3;
-}
 
-.menu-links {
-  flex-direction: column;
-  gap: 1.5rem;
-  /* position: absolute;
-  top: 4rem;
-  left: 2rem; */
-  font-size: 1.5rem;
-}
-
-.menu-links a:active {
-  background-color: transparent;
-}
-
-.closeIcon {
-  float: right;
-  margin: 2rem;
-}
 .header {
   background-image: url(../assets/mobile_intro_bg.png);
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80vh;
+  height: 100vh;
   padding: 5px 4px;
 }
 
@@ -68,7 +47,7 @@ a {
 .heading {
   padding: 10px 20px;
   color: #ec5242;
-  margin: 2rem 1rem 3rem 0;
+  margin: 3rem 1rem 3rem 0;
 }
 .heading-title h1 {
   font-size: x-large;
@@ -90,7 +69,7 @@ a {
   border-radius: 4px;
   align-self: center;
   border: 2px solid #ffffff;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 .date-time {
@@ -314,10 +293,35 @@ footer {
   width: 100%;
   background-color: #000000;
 }
-
+                      /* Mobile VERSION */
+@media screen and (max-width: 767px) {
+  .overlay {
+    height: 100vh;
+    background-color: #d3d3d3;
+  }
+  
+  .menu-links {
+    display: none;
+    flex-direction: column;
+    gap: 1.5rem;
+    position: absolute;
+    top: 4rem;
+    left: 2rem;
+    font-size: 1.5rem;
+  }
+  
+  .menu-links a:active {
+    background-color: transparent;
+  }
+  
+  .closeIcon {
+    float: right;
+    margin: 2rem;
+  }
+}
 
                       /* DESKTOP VERSION */
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
 
   .top_menu {
     display: flex;
@@ -352,6 +356,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 6rem;
   }
 
   .logo {
@@ -362,19 +367,19 @@ footer {
   .links {
     display: flex;
     align-items: center;
-    gap: 10rem;
+    gap: 7rem;
   }
 
   .menu-links {
     display: flex;
     flex-direction: row;
-    gap: 45px;
+    gap: 50px;
   }
 
   .main-link {
     display: flex;
     padding: 6px;
-    margin-right: 1rem;
+    margin-right: 0;
     border: 6px solid #ec5242;
     
   }
@@ -384,7 +389,7 @@ footer {
   }
 
   .heading {
-    padding-left: 21rem;
+    padding-left: 23rem;
     margin-top: 8rem;
     width: 80%;
     height: 50vh;

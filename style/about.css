@@ -37,21 +37,6 @@ a {
   font-size: 2rem;
 }
 
-.overlay {
-  height: 100vh;
-  background-color: #d3d3d3;
-}
-
-.menu-links {
-  display: none;
-  flex-direction: column;
-  gap: 1.5rem;
-  /* position: absolute;
-  top: 4rem;
-  left: 2rem;
-  font-size: 1.5rem; */
-}
-
 .closeIcon {
   float: right;
   margin: 2rem;
@@ -259,6 +244,127 @@ footer div {
 .f-logo img {
   width: 100%;
   background-color: #272a31
+}
+
+/* MOBILE VIEW */
+@media screen and (max-width: 767px) {
+  .overlay {
+    height: 100vh;
+    background-color: #d3d3d3;
+  }
+  
+  .menu-links {
+    display: none;
+    flex-direction: column;
+    gap: 1.5rem;
+    position: absolute;
+    top: 4rem;
+    left: 2rem;
+    font-size: 1.5rem;
+  }
+  
+  .menu-links a:active {
+    background-color: transparent;
+  }
+  
+  .closeIcon {
+    float: right;
+    margin: 2rem;
+  }
+}
+
+                      /* DESKTOP VERSION */
+@media screen and (min-width: 768px) {
+
+  .top_menu {
+    display: flex;
+    color: #d3d3d3;
+    background-color: #272a31;
+    padding: 8px 12px;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15%;
+    gap: 15px;
+    margin-bottom: 0;
+    height: 50px;
+  }
+
+.header {
+  background-image: url(../assets/main_big.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100vh;
+}
+  
+ .top_menu a {
+    color: #d3d3d3;
+  }
+
+  .nav_menu {
+    background-color: #ffffff;
+    padding: 8px 100px;
+  }
+
+  .des-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .logo {
+    display: block;
+    margin-left: 3rem;
+  }
+  
+  .links {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+  }
+
+  .menu-links {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+  }
+
+  .main-link {
+    display: flex;
+    padding: 6px;
+    margin-right: 1rem;
+    border: 6px solid #ec5242;
+    
+  }
+
+  .ham-div {
+    display: none;
+  }
+
+  .heading {
+    padding-left: 21rem;
+    margin-top: 8rem;
+    width: 80%;
+    height: 50vh;
+  }
+
+  .heading-title {
+    width: 60%;
+    height: 34vh;
+  }
+
+  .heading-title p {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .heading-title h1 {
+    margin-top: 0;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 5rem;
+    letter-spacing: 4px;
+  }
+
 }
 
                     /* DESKTOP VERSION */
