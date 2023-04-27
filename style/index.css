@@ -26,13 +26,11 @@ a {
   display: none;
 }
 
-
 .header {
   background-image: url(../assets/mobile_intro_bg.png);
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
   padding: 5px 4px;
 }
 
@@ -340,7 +338,6 @@ footer {
   background-image: url(../assets/main_big.png);
   background-repeat: no-repeat;
   background-size:cover;
-  height: 100vh;
 }
   
  .top_menu a {
@@ -391,13 +388,11 @@ footer {
   .heading {
     padding-left: 23rem;
     margin-top: 8rem;
-    width: 80%;
-    height: 50vh;
+    width: 65%;
   }
 
   .heading-title {
-    width: 60%;
-    height: 34vh;
+    width: 80%;
   }
 
   .heading-title p {
@@ -423,7 +418,7 @@ footer {
     line-height: 36px;
     padding: 8px 12px;
     letter-spacing: 0.1em;
-    width: 65%;
+    width: 80%;
     /* mix-blend-mode:screen;
     backdrop-filter: blur(12px); */
   }
