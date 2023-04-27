@@ -388,7 +388,7 @@ footer {
   .heading {
     padding-left: 23rem;
     margin-top: 8rem;
-    width: 65%;
+    width: 100%;
   }
 
   .heading-title {
@@ -419,8 +419,6 @@ footer {
     padding: 8px 12px;
     letter-spacing: 0.1em;
     width: 80%;
-    /* mix-blend-mode:screen;
-    backdrop-filter: blur(12px); */
   }
 
 .date-time {
