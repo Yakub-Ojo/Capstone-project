@@ -387,12 +387,12 @@ footer {
   .heading {
     padding-left: 20rem;
     margin-top: 8rem;
-    width: 70%;
+    width: 100%;
   }
 
-  /* .heading-title {
+  .heading-title {
     width: 80%;
-  } */
+  }
 
   .heading-title p {
     font-size: 20px;
@@ -452,6 +452,7 @@ footer {
   display: flex;
   justify-content: center;
   gap: 4px;
+  width: 80%;
 }
 
 .program-item {
