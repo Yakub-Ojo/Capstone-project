@@ -391,7 +391,7 @@ footer {
   }
 
   .heading-title {
-    width: 80%;
+    width: 100%;
   }
 
   .heading-title p {
@@ -411,13 +411,12 @@ footer {
   .conf {
     margin-bottom: 30px;
     background-color: #d3d3d3a6;
-    width: 60%;
+    width: 100%;
     box-shadow: 2px 2px 2px #d3d3d3;
     font-size: 26px;
     line-height: 36px;
     padding: 8px 12px;
     letter-spacing: 0.1em;
-    width: 80%;
   }
 
 .date-time {

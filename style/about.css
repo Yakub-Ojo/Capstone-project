@@ -368,13 +368,13 @@ footer div {
     font-weight: 700;
     line-height: 44px;
     align-self: center;
-    width: 70%;
+    width: 100%;
   }
 
   .abt-heading h1 {
     margin-top: 6rem;
     letter-spacing: 0.01em;
-    width: 70%;
+    width: 100%;
   }
   .des-conf {
     margin: 4rem 0;
@@ -384,7 +384,7 @@ footer div {
     background-color: #ffffff;
     border-radius: 4px;
     padding: 18px 12px;
-    width: 60%;
+    width: 100%;
   }
 
   .about {
