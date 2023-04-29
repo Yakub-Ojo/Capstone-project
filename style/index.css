@@ -97,6 +97,11 @@ a {
   font-weight: 700;
 }
 
+.one-line img {
+  width: 20px;
+  opacity: 0.6;
+}
+
 .date-time p:first-child {
   font-family: "Gothic A1", Arial, sans-serif;
   font-size: 22px;
@@ -241,7 +246,6 @@ a {
 .speaker-add {
   font-weight: 700;
   font-size: 11px;
-  margin-top: 20px;
 }
 
 .more-btn {
@@ -496,6 +500,10 @@ footer {
 
   .date-time p:first-child {
     font-size: 32px;
+  }
+
+  .more-btn {
+    display: none;
   }
 
   .venue {

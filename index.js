@@ -57,6 +57,7 @@ for (let i = 0; i < speakers.length; i += 1) {
             <p>${speakers[i].person}</p> 
             <span class="speaker-title">${speakers[i].post}</span>
           </div>
+          <div class="one-line"><img src="./assets/title_underline.svg" alt=""></div>
           <div class="speaker-add">
             <p>${speakers[i].add}</p>
           </div>
