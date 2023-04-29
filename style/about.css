@@ -520,7 +520,31 @@ footer div {
     align-items: center;
   }
 
+  footer {
+    padding: 4rem 0;
+    background-color: #272a31;
+  }
+
   .f-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    color: #fff;
+    padding: 0 20rem;
+  }
+
+  .f-logo img {
+    width: 100%;
+  }
+
+  .organizer {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+
+  /* .f-cont {
     display: flex;
     gap: 2px;
     justify-content: center;
@@ -538,5 +562,5 @@ footer div {
   .f-logo img {
     width: 100%;
     background-color: #272a31;
-  }
+  } */
 }

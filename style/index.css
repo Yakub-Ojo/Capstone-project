@@ -438,12 +438,12 @@ footer {
 
   .heading-title h1 {
     background-image: url(../assets/text-bg.jpeg);
-    color: transparent;
-    -webkit-background-clip: text;
     font-size: 55px;
     font-weight: 900;
     line-height: 4rem;
     width: 70%;
+    color: transparent;
+    -webkit-background-clip: text;
   }
 
   .conf {

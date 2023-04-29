@@ -58,10 +58,18 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [My-Capstone] <a name="about-project"></a>
+## Live video
+[Go live with me using this link](https://www.loom.com/share/6a4a87ffb0e34129a2b75702a0792c08)
+
+## Live page
+
+[Live Server](https://yakub-ojo.github.io/Capstone-project/index.html)
 
 
-**[My-Capstone]** is a project where i build an online website for conference and create the mobile and desktop version of the project following a design template in Behance
+# 📖 [Capstone-project] <a name="about-project"></a>
+
+
+**[Capstone-project]** is a project where i build an online website for Agric conference and create the mobile and desktop version of the project following a design template in Behance
 
 ## 🛠 Built With <a name="built-with"></a>
 
