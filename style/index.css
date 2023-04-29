@@ -102,6 +102,14 @@ a {
   opacity: 0.6;
 }
 
+.speaker-add p {
+  color: #272a31;
+  margin-top: 5px;
+  font-size: 14px;
+  width: 95%;
+  opacity: 0.7;
+}
+
 .date-time p:first-child {
   font-family: "Gothic A1", Arial, sans-serif;
   font-size: 22px;
@@ -246,14 +254,6 @@ a {
 .speaker-add {
   font-weight: 700;
   font-size: 11px;
-}
-
-.speaker-add p {
-  color: #272a31;
-  margin-top: 5px;
-  font-size: 14px;
-  width: 95%;
-  opacity: 0.7;
 }
 
 .more-btn {

@@ -152,7 +152,7 @@ a {
   justify-content: center;
   padding: 2rem;
   gap: 10px;
-  background-color: #ffffff;
+  background-color: #fff;
   font-weight: 700;
   line-height: 28px;
 }
@@ -553,7 +553,6 @@ footer div {
   }
 
   .summit {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
