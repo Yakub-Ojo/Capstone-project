@@ -248,6 +248,14 @@ a {
   font-size: 11px;
 }
 
+.speaker-add p {
+  color: #272a31;
+  margin-top: 5px;
+  font-size: 14px;
+  width: 95%;
+  opacity: 0.7;
+}
+
 .more-btn {
   display: flex;
   justify-content: center;
