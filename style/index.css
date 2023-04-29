@@ -111,7 +111,7 @@ a {
   font-size: 12px;
   font-weight: 900;
   color: #868686;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .program-details {
@@ -250,9 +250,9 @@ a {
   align-items: center;
   gap: 4px;
   padding: 10px;
-  background-color: #ffffff;
-  color: #000000;
-  font: 700;
+  background-color: #fff;
+  color: #000;
+  font-weight: 700;
   width: 100%;
   margin-bottom: 20px;
   border: 1px solid #3c3c427a;
@@ -264,7 +264,6 @@ a {
   font-size: 30px;
   padding-top: 3px;
 }
-
 
 .partners {
   background-color: #414246;
@@ -426,6 +425,13 @@ footer {
     gap: 28px;
   }
 
+  .reg-link a {
+    align-self: center;
+    color: #d3d3d3;
+    font-size: 20px;
+    text-decoration: underline;
+  }
+
   .menu-links a:hover {
     text-decoration: underline;
     color: #ec5242;
@@ -442,11 +448,11 @@ footer {
   }
 
   .heading {
-    padding: 0 0 10% 10% ;
+    padding: 0 0 10% 10%;
     background-image: url(../assets/mobile_intro_bg.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 50%;
   }
 
   .heading-title p {
@@ -456,7 +462,6 @@ footer {
   }
 
   .heading-title h1 {
-   
     font-size: 55px;
     font-weight: 900;
     line-height: 4rem;
@@ -547,18 +552,10 @@ footer {
     display: block;
     margin: 50px auto;
   }
-  
-  .reg-link a {
-    align-self: center;
-    color: #d3d3d3;
-    font-size: 20px;
-    text-decoration: underline;
-  }
-  
+
   .reg-link a:hover {
     color: #fff;
   }
-  
 
   .join-button {
     display: none;
